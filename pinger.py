@@ -75,6 +75,7 @@ def send(packet_id, payload, address, p_socket):
     return time.time()
 
 
+#receives packet and determines time taken to receive
 def receive(packet_id, p_socket, start_time, sequence_number):
     while True:
         p_socket.settimeout(1)
@@ -149,5 +150,3 @@ def pinger(pings, payload):
 
 
 pinger(count, payload)
-
-
