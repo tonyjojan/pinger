@@ -1,11 +1,11 @@
-#Pinger.py - a python implementation of pinger
-###By: Tony Jojan 
+# Pinger.py - a python implementation of pinger
+### By: Tony Jojan
 
 
  usage: python pinger.py [-h] [-p PAYLOAD] [-l LOGFILE] [-c COUNT] [-d DESTINATION]
- 
-#####Default Values:
+
+##### Default Values:
  count - 5, destination - 'www.google.com', payload - 'Hello World'
- 
-#####Notes:
+
+##### Notes:
 requires root priveleges
